@@ -1,0 +1,308 @@
+body{
+  /*font-family: arial,helvetica,sans-serif; */
+  /*font-size: 15px; */
+  /*line-height: 1.5;*/
+  font: 15px/1.5 arial,helvetica,sans-serif; /*font: font-size/line-height font-family*/
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+      /* Global*/
+
+.container{
+  width: 80%; /*using % makes the website responsive */
+  margin: auto;
+  overflow: hidden; /* no scrollbar when text goes 'out of screen' */
+
+}
+.bodycontainer{
+  background-color: silver;
+  text-align: center;
+  padding: 50px;
+  width: 80%;
+  overflow: hidden;
+
+}
+.containerx{
+  background-color: silver;
+  text-align: center;
+  padding: 40px;
+  width: 30%;
+  overflow: hidden;
+  margin: 30px 30px;
+  border: 1px dotted green;
+}
+
+
+button{
+  padding: 5px 20px 5px 20px;
+  color: white;
+  /*background-color: #f73645bd;*/
+  background-color: green;
+  margin: 5px;
+  height: 40px;
+
+
+}
+
+
+  /*Header**/
+
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px; /* Ensures a minimum height when the website gets resized*/
+  border-bottom: #e8491d 3px solid;
+
+}
+
+header a{ /* All the a tags (links) in the header*/
+  text-decoration: none; /*Removes all the underlines that links have by default*/
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+/* showcase */
+
+#showcase{
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 45px;
+
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+footer{
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* This begins the  Log in page */
+  .alert{
+    color: red;
+
+  }
+
+
+ .bodycontainer table{
+  margin: auto;
+  padding: 10px;
+/*  border-top: 1px solid black; */
+  border-left: 1px dashed lightgrey;
+  border-right: 1px dashed lightgrey;
+  border-left-width: 2px;
+  border-right-width: 2px;
+
+
+}
+
+.bodycontainer input {
+  width: 85%;
+  height: 30px;
+  font-size: 20px;
+}
+
+.bodycontainer label{
+  font-size: 20px;
+}
+
+#formcontainer{
+  margin-top: 30px;
+  border-top: 1px solid black;
+
+}
+
+
+/* Here begins the about page */
+#mgmt{
+  float: left;
+  height: 500px;
+
+}
+.tbt{
+  float: left;
+  width: 30%;
+  height: 20%;
+  margin: 30px  10px;
+  margin-bottom: none;
+
+}
+#tbt{
+  background-color: #cc9966;
+  width: 47%;
+
+}
+
+#contact{
+
+  background-color: #FFFFCC
+  height: 40%;
+  margin: 0 auto;
+
+}
+
+#contact form{
+  background-color: #cc9966;
+  width: 50%;
+  padding: 20px;
+  margin: none;
+  float: left;
+  clear: right;
+}
+
+#contact form input{
+  height: 30px;
+  width: 60%;
+  font-size: 18px;
+}
+
+#contact form textarea{
+  width: 60%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#commentsbutton{
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #666666;
+}
+.footer{
+  clear: both;
+  margin-top: 20px;
+}
+
+/*Here Begins the home page*/
+.completed table, .pending table{
+  margin: 0 auto;
+  width: 60%;
+  //border-bottom:  2px solid black;
+  border-collapse: separate;
+
+}
+.completed table td, .pending table  td{
+  border-bottom:  2px solid black;
+}
+
+.updatebutton{
+  background-color: grey;
+  color: #FFCC00;
+}
+.deletebutton{
+  background-color: grey;
+  color: #CC0000;
+}
+ /* Here begins the create page */
+ /*
+#newcustomer{
+  padding-left: -10px;
+}
+
+ #newuser , #neworder, #newcustomer{
+      margin: 20px auto;
+    //  background-color: lightgrey;
+      padding: none;
+      width: 80%;
+      padding-top: 10px;
+      border: 1px solid black;
+ }
+ #newuser input, #newuser select,  #newcustomer input, #neworder input {
+   width: 85%;
+   height: 30px;
+   font-size: 20px;
+ }
+
+#newuser table, #neworder table, #neworder table{
+    margin: none;
+
+    padding: 10px;
+  //  border-top: 1px solid black;
+    border-left: 1px dashed lightgrey;
+    border-right: 1px dashed lightgrey;
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+ .inserttable{
+  margin: 0 auto;
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+}
+                                                        */
+/* Create user begins here */
+#newuser{
+  border: 2px solid gold;
+  width: 40%;
+  margin: 0 auto;
+}
+#newuser form{
+  text-align: center;
+  height: 400px;
+  font-size: 18px;
+}
+#newuser input, #newuser select{
+  height: 30px;
+  width: 70%;
+  font-size: 18px;
+
+}
+
+/*Media Queries*/
+  @media (max-width:768px) {
+    header #branding, header nav, header nav li{
+      text-align: center;
+      width: 100%;
+      float: none;
+    }
+
+  }
+
+
+/*The End*/
